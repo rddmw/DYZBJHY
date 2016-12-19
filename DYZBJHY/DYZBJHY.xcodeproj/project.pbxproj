@@ -62,11 +62,6 @@
 			children = (
 				9EFD40871E0837FC00B09972 /* Classes */,
 				04E0CFC41E078EAC0044A0B0 /* AppDelegate.swift */,
-				04E0CFC81E078EAC0044A0B0 /* Main.storyboard */,
-				9EDE89001E08339500DAA1F5 /* Mine.storyboard */,
-				9EDE88FD1E08335B00DAA1F5 /* Follow.storyboard */,
-				9EDE88FB1E08332A00DAA1F5 /* Live.storyboard */,
-				9EDE88F81E08330B00DAA1F5 /* Home.storyboard */,
 				04E0CFCB1E078EAC0044A0B0 /* Assets.xcassets */,
 				04E0CFCD1E078EAC0044A0B0 /* LaunchScreen.storyboard */,
 				04E0CFD01E078EAC0044A0B0 /* Info.plist */,
@@ -90,6 +85,7 @@
 		9EFD40881E08380C00B09972 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE89001E08339500DAA1F5 /* Mine.storyboard */,
 			);
 			name = Mine;
 			sourceTree = "<group>";
@@ -97,6 +93,7 @@
 		9EFD40891E08381900B09972 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE88F81E08330B00DAA1F5 /* Home.storyboard */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -104,6 +101,7 @@
 		9EFD408A1E08382000B09972 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE88FD1E08335B00DAA1F5 /* Follow.storyboard */,
 			);
 			name = Follow;
 			sourceTree = "<group>";
@@ -111,6 +109,7 @@
 		9EFD408B1E08382C00B09972 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE88FB1E08332A00DAA1F5 /* Live.storyboard */,
 			);
 			name = Live;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		9EFD408D1E08384500B09972 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				04E0CFC81E078EAC0044A0B0 /* Main.storyboard */,
 			);
 			name = Main;
 			sourceTree = "<group>";
