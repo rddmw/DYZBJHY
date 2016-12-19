@@ -60,6 +60,7 @@
 		04E0CFC31E078EAB0044A0B0 /* DYZBJHY */ = {
 			isa = PBXGroup;
 			children = (
+				9EFD40871E0837FC00B09972 /* Classes */,
 				04E0CFC41E078EAC0044A0B0 /* AppDelegate.swift */,
 				04E0CFC81E078EAC0044A0B0 /* Main.storyboard */,
 				9EDE89001E08339500DAA1F5 /* Mine.storyboard */,
@@ -71,6 +72,61 @@
 				04E0CFD01E078EAC0044A0B0 /* Info.plist */,
 			);
 			path = DYZBJHY;
+			sourceTree = "<group>";
+		};
+		9EFD40871E0837FC00B09972 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD408D1E08384500B09972 /* Main */,
+				9EFD408C1E08383300B09972 /* Tools */,
+				9EFD408B1E08382C00B09972 /* Live */,
+				9EFD408A1E08382000B09972 /* Follow */,
+				9EFD40891E08381900B09972 /* Home */,
+				9EFD40881E08380C00B09972 /* Mine */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9EFD40881E08380C00B09972 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		9EFD40891E08381900B09972 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		9EFD408A1E08382000B09972 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Follow;
+			sourceTree = "<group>";
+		};
+		9EFD408B1E08382C00B09972 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		9EFD408C1E08383300B09972 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		9EFD408D1E08384500B09972 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
