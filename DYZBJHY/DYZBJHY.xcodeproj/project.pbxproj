@@ -60,7 +60,6 @@
 		04E0CFC31E078EAB0044A0B0 /* DYZBJHY */ = {
 			isa = PBXGroup;
 			children = (
-				9EDE89021E08342F00DAA1F5 /* Classes */,
 				04E0CFC41E078EAC0044A0B0 /* AppDelegate.swift */,
 				04E0CFC81E078EAC0044A0B0 /* Main.storyboard */,
 				9EDE89001E08339500DAA1F5 /* Mine.storyboard */,
@@ -72,61 +71,6 @@
 				04E0CFD01E078EAC0044A0B0 /* Info.plist */,
 			);
 			path = DYZBJHY;
-			sourceTree = "<group>";
-		};
-		9EDE89021E08342F00DAA1F5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9EDE89031E08342F00DAA1F5 /* Follow */,
-				9EDE89041E08342F00DAA1F5 /* Home */,
-				9EDE89051E08342F00DAA1F5 /* Live */,
-				9EDE89061E08342F00DAA1F5 /* Main */,
-				9EDE89071E08342F00DAA1F5 /* Mine */,
-				9EDE89081E08342F00DAA1F5 /* Tools */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9EDE89031E08342F00DAA1F5 /* Follow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Follow;
-			sourceTree = "<group>";
-		};
-		9EDE89041E08342F00DAA1F5 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		9EDE89051E08342F00DAA1F5 /* Live */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Live;
-			sourceTree = "<group>";
-		};
-		9EDE89061E08342F00DAA1F5 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		9EDE89071E08342F00DAA1F5 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		9EDE89081E08342F00DAA1F5 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
