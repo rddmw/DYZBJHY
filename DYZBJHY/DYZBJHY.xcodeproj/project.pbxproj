@@ -17,6 +17,7 @@
 		9EDE89011E08339500DAA1F5 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE89001E08339500DAA1F5 /* Mine.storyboard */; };
 		9EFD408F1E083BB400B09972 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD408E1E083BB400B09972 /* MainViewController.swift */; };
 		9EFD40911E0ACD3100B09972 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40901E0ACD3100B09972 /* HomeViewController.swift */; };
+		9EFD40941E0AD2DC00B09972 /* UIBarButtonItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40931E0AD2DC00B09972 /* UIBarButtonItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9EDE89001E08339500DAA1F5 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		9EFD408E1E083BB400B09972 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9EFD40901E0ACD3100B09972 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9EFD40931E0AD2DC00B09972 /* UIBarButtonItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		9EFD408C1E08383300B09972 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9EFD40921E0AD29A00B09972 /* Extension */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -133,6 +136,14 @@
 				9EFD408E1E083BB400B09972 /* MainViewController.swift */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		9EFD40921E0AD29A00B09972 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD40931E0AD2DC00B09972 /* UIBarButtonItems.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			files = (
 				04E0CFC51E078EAC0044A0B0 /* AppDelegate.swift in Sources */,
 				9EFD408F1E083BB400B09972 /* MainViewController.swift in Sources */,
+				9EFD40941E0AD2DC00B09972 /* UIBarButtonItems.swift in Sources */,
 				9EFD40911E0ACD3100B09972 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
