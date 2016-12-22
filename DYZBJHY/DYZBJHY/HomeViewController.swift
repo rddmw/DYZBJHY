@@ -8,12 +8,27 @@
 
 import UIKit
 
+fileprivate let kTitleViewH : CGFloat = 40
+
 class HomeViewController: UIViewController {
 
+    
+    
+    fileprivate  lazy var pageTitleView : PageTitleView = {
+        
+        let titlesFrame = CGRect(x: 0, y: 64, width: kScreenWidth, height: kTitleViewH)
+        let titles = ["推荐","游戏","娱乐","趣玩"]
+        let titleView = PageTitleView(frame: titlesFrame, titles: titles)
+        titleView.backgroundColor = UIColor.orange
+        return titleView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupUI()
+        
+        
     }
     
     
@@ -25,6 +40,8 @@ extension HomeViewController{
     fileprivate func setupUI() {
         
         setupNavUI()
+        
+        view.addSubview(pageTitleView)
     }
     
     private func setupNavUI() {

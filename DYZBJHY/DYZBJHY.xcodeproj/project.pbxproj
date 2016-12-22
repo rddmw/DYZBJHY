@@ -18,6 +18,8 @@
 		9EFD408F1E083BB400B09972 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD408E1E083BB400B09972 /* MainViewController.swift */; };
 		9EFD40911E0ACD3100B09972 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40901E0ACD3100B09972 /* HomeViewController.swift */; };
 		9EFD40941E0AD2DC00B09972 /* UIBarButtonItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40931E0AD2DC00B09972 /* UIBarButtonItems.swift */; };
+		9EFD40961E0C16E900B09972 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40951E0C16E900B09972 /* PageTitleView.swift */; };
+		9EFD40981E0C19C300B09972 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD40971E0C19C300B09972 /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		9EFD408E1E083BB400B09972 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9EFD40901E0ACD3100B09972 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9EFD40931E0AD2DC00B09972 /* UIBarButtonItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItems.swift; sourceTree = "<group>"; };
+		9EFD40951E0C16E900B09972 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		9EFD40971E0C19C300B09972 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9EFD40921E0AD29A00B09972 /* Extension */,
+				9EFD40971E0C19C300B09972 /* common.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			children = (
 				04E0CFC81E078EAC0044A0B0 /* Main.storyboard */,
 				9EFD408E1E083BB400B09972 /* MainViewController.swift */,
+				9EFD40951E0C16E900B09972 /* PageTitleView.swift */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -223,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E0CFC51E078EAC0044A0B0 /* AppDelegate.swift in Sources */,
+				9EFD40981E0C19C300B09972 /* common.swift in Sources */,
 				9EFD408F1E083BB400B09972 /* MainViewController.swift in Sources */,
+				9EFD40961E0C16E900B09972 /* PageTitleView.swift in Sources */,
 				9EFD40941E0AD2DC00B09972 /* UIBarButtonItems.swift in Sources */,
 				9EFD40911E0ACD3100B09972 /* HomeViewController.swift in Sources */,
 			);
