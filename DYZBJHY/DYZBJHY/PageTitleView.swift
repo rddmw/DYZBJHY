@@ -40,5 +40,10 @@ class PageTitleView: UIView {
 extension PageTitleView {
     fileprivate func setupUI() {
         //添加scrollView
+        addSubview(scrollView)
+        
+        scrollView.frame = bounds
     }
+    
+
 }
