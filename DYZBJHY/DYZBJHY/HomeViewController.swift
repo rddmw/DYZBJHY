@@ -19,8 +19,15 @@ class HomeViewController: UIViewController {
         let titlesFrame = CGRect(x: 0, y: 64, width: kScreenWidth, height: kTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: titlesFrame, titles: titles)
-        titleView.backgroundColor = UIColor.orange
+//        titleView.backgroundColor = UIColor.orange
         return titleView
+    }()
+    
+    fileprivate lazy var pageContentView :PageContentView = {
+       
+        let contentFrame = CGRect(x: 0, y: 64 + kTitleViewH, width: kScreenWidth, height: kScreenHeight - 64 - kTitleViewH - 49)
+        let contentView = PageContentView(frame: contentFrame, childVcs: <#T##[UIViewController]#>, parentViewController: <#T##UIViewController#>)
+        
     }()
     
     override func viewDidLoad() {
@@ -38,6 +45,9 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController{
     fileprivate func setupUI() {
+        
+        automaticallyAdjustsScrollViewInsets = false
+        
         
         setupNavUI()
         
