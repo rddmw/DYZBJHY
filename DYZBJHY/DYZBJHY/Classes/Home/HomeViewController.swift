@@ -23,12 +23,12 @@ class HomeViewController: UIViewController {
         return titleView
     }()
     
-    fileprivate lazy var pageContentView :PageContentView = {
-       
-        let contentFrame = CGRect(x: 0, y: 64 + kTitleViewH, width: kScreenWidth, height: kScreenHeight - 64 - kTitleViewH - 49)
-        let contentView = PageContentView(frame: contentFrame, childVcs: <#T##[UIViewController]#>, parentViewController: <#T##UIViewController#>)
-        
-    }()
+//    fileprivate lazy var pageContentView :PageContentView = {
+//       
+//        let contentFrame = CGRect(x: 0, y: 64 + kTitleViewH, width: kScreenWidth, height: kScreenHeight - 64 - kTitleViewH - 49)
+////        let contentView = PageContentView(frame: contentFrame, childVcs: <#T##[UIViewController]#>, parentViewController: <#T##UIViewController#>)
+//        
+//    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
